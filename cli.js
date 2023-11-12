@@ -16,7 +16,7 @@ const validSources = Object.keys(sources)
 const cli = meow(
   `
   Usage:
-    $ bibtex-search <query>
+    $ bibsearch <query>
 
   Options:
     --source, -s Where to find papers from (default: acm) - valid options: [${
@@ -24,8 +24,8 @@ const cli = meow(
     }]
 
   Examples:
-    $ bibtex-search bayou
-    $ bibtex-search --source google zaharia spark
+    $ bibsearch bayou
+    $ bibsearch --source google zaharia spark
 `,
   {
     flags: {

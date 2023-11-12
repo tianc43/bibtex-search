@@ -4,7 +4,7 @@ const { retrieve, search, sources } = require('./');
 
 /**
  * Note that these tests run directly against the real sources.
- * In theory they should only fail if bibtex-search would fail as well,
+ * In theory they should only fail if bibsearch would fail as well,
  * e.g. if one of the sources completely change their DOM representation.
  */
 

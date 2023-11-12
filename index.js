@@ -149,7 +149,7 @@ exports.retrieve = async function retrieve(source, id) {
     case sources.IEEE:
       return retrieveIeee(id);
     default:
-      return retrieveAcm(id);
+      return retrieveScholar(id);
   }
 };
 
@@ -163,7 +163,7 @@ exports.search = async function search(source, query) {
     case sources.IEEE:
       return searchIeee(query);
     default:
-      return searchAcm(query);
+      return searchScholar(query);
   }
 };
 

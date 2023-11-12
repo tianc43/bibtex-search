@@ -1,10 +1,10 @@
 {
-  "name": "bibtex-search",
+  "name": "bibsearch",
   "version": "0.3.1",
   "description": "Search for BibTeX references",
   "main": "index.js",
   "bin": "cli.js",
-  "repository": "https://github.com/ekmartin/bibtex-search",
+  "repository": "https://github.com/ekmartin/bibsearch",
   "author": "Martin Ek <mail@ekmartin.com>",
   "keywords": [
     "bibtex",
